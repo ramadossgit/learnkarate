@@ -42,3 +42,41 @@ Scenario: Verify /posts work with query parameter
     Then status 200
     And assert response.length == 10
 
+
+Scenario: Verify that a new post can be created
+    Given path 'posts'
+    And header Content-Type = 'application/json; charset=UTF-8'
+    And request
+    """
+    {title: 'foo',
+    body: 'bar',
+    userId: 101
+    }    
+    """
+    When method post
+    Then status 201
+    And match response ==  {id: '#number', title: 'foo',body: 'bar',userId: 101}  
+
+
+Scenario: Verify update on /post/{uid} works
+    Given def postid = 11
+    And path '/posts'
+    And path postid
+    And request
+    """
+    {
+        title: 'foo1',
+        body: 'bar1',
+        userId: 11
+    }    
+    """
+    When method put
+    Then status 200
+    And match response == {"id": '#(postid)',"title": 'foo1',"body":'bar1',"userId": 11}    
+    
+Scenario: Verify delete on /post/{uid} works
+    Given def postid = 11
+    And path '/posts'
+    And path postid
+    When method delete
+    Then status 200
