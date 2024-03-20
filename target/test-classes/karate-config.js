@@ -6,10 +6,12 @@ function fn() {
   }
   var config = {
     env: env,
-    myVarName: 'someValue'
+    myVarName: 'someValue',
+    baseUrl: 'https://gorest.co.in'
   }
   if (env == 'dev') {
     // customize
+
     // e.g. config.foo = 'bar';
   } else if (env == 'e2e') {
     // customize

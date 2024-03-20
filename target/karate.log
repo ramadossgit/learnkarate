@@ -21077,3 +21077,3104 @@ classpath:mysocial/posts.feature:74
 {}
 
 15:04:55.912 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 1 (0 remaining) classpath:mysocial/posts.feature
+10:04:10.945 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:04:10.961 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710857050945
+10:04:12.229 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:12.794 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:04:13.232 [main] DEBUG com.intuit.karate - response time in milliseconds: 438
+1 < 200
+1 < Date: Tue, 19 Mar 2024 14:04:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709751404&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TT%2FNm3qnLZe7ZiNgZhCco77sireLAJ9IPu6qwrUcavQ%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709751404&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=TT%2FNm3qnLZe7ZiNgZhCco77sireLAJ9IPu6qwrUcavQ%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709751437
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"6b80-Ybsq/K6GwwqrYkAsFxqDXGC7DoM"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 8989
+1 < Server: cloudflare
+1 < CF-RAY: 866e02a8ace8b0c4-ATL
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+    "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "eum et est occaecati",
+    "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "nesciunt quas odio",
+    "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "dolorem eum magni eos aperiam quia",
+    "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+  },
+  {
+    "userId": 1,
+    "id": 7,
+    "title": "magnam facilis autem",
+    "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+  },
+  {
+    "userId": 1,
+    "id": 8,
+    "title": "dolorem dolore est ipsam",
+    "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+  },
+  {
+    "userId": 1,
+    "id": 9,
+    "title": "nesciunt iure omnis dolorem tempora et accusantium",
+    "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+  },
+  {
+    "userId": 1,
+    "id": 10,
+    "title": "optio molestias id quia eum",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+  },
+  {
+    "userId": 2,
+    "id": 11,
+    "title": "et ea vero quia laudantium autem",
+    "body": "delectus reiciendis molestiae occaecati non minima eveniet qui voluptatibus\naccusamus in eum beatae sit\nvel qui neque voluptates ut commodi qui incidunt\nut animi commodi"
+  },
+  {
+    "userId": 2,
+    "id": 12,
+    "title": "in quibusdam tempore odit est dolorem",
+    "body": "itaque id aut magnam\npraesentium quia et ea odit et ea voluptas et\nsapiente quia nihil amet occaecati quia id voluptatem\nincidunt ea est distinctio odio"
+  },
+  {
+    "userId": 2,
+    "id": 13,
+    "title": "dolorum ut in voluptas mollitia et saepe quo animi",
+    "body": "aut dicta possimus sint mollitia voluptas commodi quo doloremque\niste corrupti reiciendis voluptatem eius rerum\nsit cumque quod eligendi laborum minima\nperferendis recusandae assumenda consectetur porro architecto ipsum ipsam"
+  },
+  {
+    "userId": 2,
+    "id": 14,
+    "title": "voluptatem eligendi optio",
+    "body": "fuga et accusamus dolorum perferendis illo voluptas\nnon doloremque neque facere\nad qui dolorum molestiae beatae\nsed aut voluptas totam sit illum"
+  },
+  {
+    "userId": 2,
+    "id": 15,
+    "title": "eveniet quod temporibus",
+    "body": "reprehenderit quos placeat\nvelit minima officia dolores impedit repudiandae molestiae nam\nvoluptas recusandae quis delectus\nofficiis harum fugiat vitae"
+  },
+  {
+    "userId": 2,
+    "id": 16,
+    "title": "sint suscipit perspiciatis velit dolorum rerum ipsa laboriosam odio",
+    "body": "suscipit nam nisi quo aperiam aut\nasperiores eos fugit maiores voluptatibus quia\nvoluptatem quis ullam qui in alias quia est\nconsequatur magni mollitia accusamus ea nisi voluptate dicta"
+  },
+  {
+    "userId": 2,
+    "id": 17,
+    "title": "fugit voluptas sed molestias voluptatem provident",
+    "body": "eos voluptas et aut odit natus earum\naspernatur fuga molestiae ullam\ndeserunt ratione qui eos\nqui nihil ratione nemo velit ut aut id quo"
+  },
+  {
+    "userId": 2,
+    "id": 18,
+    "title": "voluptate et itaque vero tempora molestiae",
+    "body": "eveniet quo quis\nlaborum totam consequatur non dolor\nut et est repudiandae\nest voluptatem vel debitis et magnam"
+  },
+  {
+    "userId": 2,
+    "id": 19,
+    "title": "adipisci placeat illum aut reiciendis qui",
+    "body": "illum quis cupiditate provident sit magnam\nea sed aut omnis\nveniam maiores ullam consequatur atque\nadipisci quo iste expedita sit quos voluptas"
+  },
+  {
+    "userId": 2,
+    "id": 20,
+    "title": "doloribus ad provident suscipit at",
+    "body": "qui consequuntur ducimus possimus quisquam amet similique\nsuscipit porro ipsam amet\neos veritatis officiis exercitationem vel fugit aut necessitatibus totam\nomnis rerum consequatur expedita quidem cumque explicabo"
+  },
+  {
+    "userId": 3,
+    "id": 21,
+    "title": "asperiores ea ipsam voluptatibus modi minima quia sint",
+    "body": "repellat aliquid praesentium dolorem quo\nsed totam minus non itaque\nnihil labore molestiae sunt dolor eveniet hic recusandae veniam\ntempora et tenetur expedita sunt"
+  },
+  {
+    "userId": 3,
+    "id": 22,
+    "title": "dolor sint quo a velit explicabo quia nam",
+    "body": "eos qui et ipsum ipsam suscipit aut\nsed omnis non odio\nexpedita earum mollitia molestiae aut atque rem suscipit\nnam impedit esse"
+  },
+  {
+    "userId": 3,
+    "id": 23,
+    "title": "maxime id vitae nihil numquam",
+    "body": "veritatis unde neque eligendi\nquae quod architecto quo neque vitae\nest illo sit tempora doloremque fugit quod\net et vel beatae sequi ullam sed tenetur perspiciatis"
+  },
+  {
+    "userId": 3,
+    "id": 24,
+    "title": "autem hic labore sunt dolores incidunt",
+    "body": "enim et ex nulla\nomnis voluptas quia qui\nvoluptatem consequatur numquam aliquam sunt\ntotam recusandae id dignissimos aut sed asperiores deserunt"
+  },
+  {
+    "userId": 3,
+    "id": 25,
+    "title": "rem alias distinctio quo quis",
+    "body": "ullam consequatur ut\nomnis quis sit vel consequuntur\nipsa eligendi ipsum molestiae et omnis error nostrum\nmolestiae illo tempore quia et distinctio"
+  },
+  {
+    "userId": 3,
+    "id": 26,
+    "title": "est et quae odit qui non",
+    "body": "similique esse doloribus nihil accusamus\nomnis dolorem fuga consequuntur reprehenderit fugit recusandae temporibus\nperspiciatis cum ut laudantium\nomnis aut molestiae vel vero"
+  },
+  {
+    "userId": 3,
+    "id": 27,
+    "title": "quasi id et eos tenetur aut quo autem",
+    "body": "eum sed dolores ipsam sint possimus debitis occaecati\ndebitis qui qui et\nut placeat enim earum aut odit facilis\nconsequatur suscipit necessitatibus rerum sed inventore temporibus consequatur"
+  },
+  {
+    "userId": 3,
+    "id": 28,
+    "title": "delectus ullam et corporis nulla voluptas sequi",
+    "body": "non et quaerat ex quae ad maiores\nmaiores recusandae totam aut blanditiis mollitia quas illo\nut voluptatibus voluptatem\nsimilique nostrum eum"
+  },
+  {
+    "userId": 3,
+    "id": 29,
+    "title": "iusto eius quod necessitatibus culpa ea",
+    "body": "odit magnam ut saepe sed non qui\ntempora atque nihil\naccusamus illum doloribus illo dolor\neligendi repudiandae odit magni similique sed cum maiores"
+  },
+  {
+    "userId": 3,
+    "id": 30,
+    "title": "a quo magni similique perferendis",
+    "body": "alias dolor cumque\nimpedit blanditiis non eveniet odio maxime\nblanditiis amet eius quis tempora quia autem rem\na provident perspiciatis quia"
+  },
+  {
+    "userId": 4,
+    "id": 31,
+    "title": "ullam ut quidem id aut vel consequuntur",
+    "body": "debitis eius sed quibusdam non quis consectetur vitae\nimpedit ut qui consequatur sed aut in\nquidem sit nostrum et maiores adipisci atque\nquaerat voluptatem adipisci repudiandae"
+  },
+  {
+    "userId": 4,
+    "id": 32,
+    "title": "doloremque illum aliquid sunt",
+    "body": "deserunt eos nobis asperiores et hic\nest debitis repellat molestiae optio\nnihil ratione ut eos beatae quibusdam distinctio maiores\nearum voluptates et aut adipisci ea maiores voluptas maxime"
+  },
+  {
+    "userId": 4,
+    "id": 33,
+    "title": "qui explicabo molestiae dolorem",
+    "body": "rerum ut et numquam laborum odit est sit\nid qui sint in\nquasi tenetur tempore aperiam et quaerat qui in\nrerum officiis sequi cumque quod"
+  },
+  {
+    "userId": 4,
+    "id": 34,
+    "title": "magnam ut rerum iure",
+    "body": "ea velit perferendis earum ut voluptatem voluptate itaque iusto\ntotam pariatur in\nnemo voluptatem voluptatem autem magni tempora minima in\nest distinctio qui assumenda accusamus dignissimos officia nesciunt nobis"
+  },
+  {
+    "userId": 4,
+    "id": 35,
+    "title": "id nihil consequatur molestias animi provident",
+    "body": "nisi error delectus possimus ut eligendi vitae\nplaceat eos harum cupiditate facilis reprehenderit voluptatem beatae\nmodi ducimus quo illum voluptas eligendi\net nobis quia fugit"
+  },
+  {
+    "userId": 4,
+    "id": 36,
+    "title": "fuga nam accusamus voluptas reiciendis itaque",
+    "body": "ad mollitia et omnis minus architecto odit\nvoluptas doloremque maxime aut non ipsa qui alias veniam\nblanditiis culpa aut quia nihil cumque facere et occaecati\nqui aspernatur quia eaque ut aperiam inventore"
+  },
+  {
+    "userId": 4,
+    "id": 37,
+    "title": "provident vel ut sit ratione est",
+    "body": "debitis et eaque non officia sed nesciunt pariatur vel\nvoluptatem iste vero et ea\nnumquam aut expedita ipsum nulla in\nvoluptates omnis consequatur aut enim officiis in quam qui"
+  },
+  {
+    "userId": 4,
+    "id": 38,
+    "title": "explicabo et eos deleniti nostrum ab id repellendus",
+    "body": "animi esse sit aut sit nesciunt assumenda eum voluptas\nquia voluptatibus provident quia necessitatibus ea\nrerum repudiandae quia voluptatem delectus fugit aut id quia\nratione optio eos iusto veniam iure"
+  },
+  {
+    "userId": 4,
+    "id": 39,
+    "title": "eos dolorem iste accusantium est eaque quam",
+    "body": "corporis rerum ducimus vel eum accusantium\nmaxime aspernatur a porro possimus iste omnis\nest in deleniti asperiores fuga aut\nvoluptas sapiente vel dolore minus voluptatem incidunt ex"
+  },
+  {
+    "userId": 4,
+    "id": 40,
+    "title": "enim quo cumque",
+    "body": "ut voluptatum aliquid illo tenetur nemo sequi quo facilis\nipsum rem optio mollitia quas\nvoluptatem eum voluptas qui\nunde omnis voluptatem iure quasi maxime voluptas nam"
+  },
+  {
+    "userId": 5,
+    "id": 41,
+    "title": "non est facere",
+    "body": "molestias id nostrum\nexcepturi molestiae dolore omnis repellendus quaerat saepe\nconsectetur iste quaerat tenetur asperiores accusamus ex ut\nnam quidem est ducimus sunt debitis saepe"
+  },
+  {
+    "userId": 5,
+    "id": 42,
+    "title": "commodi ullam sint et excepturi error explicabo praesentium voluptas",
+    "body": "odio fugit voluptatum ducimus earum autem est incidunt voluptatem\nodit reiciendis aliquam sunt sequi nulla dolorem\nnon facere repellendus voluptates quia\nratione harum vitae ut"
+  },
+  {
+    "userId": 5,
+    "id": 43,
+    "title": "eligendi iste nostrum consequuntur adipisci praesentium sit beatae perferendis",
+    "body": "similique fugit est\nillum et dolorum harum et voluptate eaque quidem\nexercitationem quos nam commodi possimus cum odio nihil nulla\ndolorum exercitationem magnam ex et a et distinctio debitis"
+  },
+  {
+    "userId": 5,
+    "id": 44,
+    "title": "optio dolor molestias sit",
+    "body": "temporibus est consectetur dolore\net libero debitis vel velit laboriosam quia\nipsum quibusdam qui itaque fuga rem aut\nea et iure quam sed maxime ut distinctio quae"
+  },
+  {
+    "userId": 5,
+    "id": 45,
+    "title": "ut numquam possimus omnis eius suscipit laudantium iure",
+    "body": "est natus reiciendis nihil possimus aut provident\nex et dolor\nrepellat pariatur est\nnobis rerum repellendus dolorem autem"
+  },
+  {
+    "userId": 5,
+    "id": 46,
+    "title": "aut quo modi neque nostrum ducimus",
+    "body": "voluptatem quisquam iste\nvoluptatibus natus officiis facilis dolorem\nquis quas ipsam\nvel et voluptatum in aliquid"
+  },
+  {
+    "userId": 5,
+    "id": 47,
+    "title": "quibusdam cumque rem aut deserunt",
+    "body": "voluptatem assumenda ut qui ut cupiditate aut impedit veniam\noccaecati nemo illum voluptatem laudantium\nmolestiae beatae rerum ea iure soluta nostrum\neligendi et voluptate"
+  },
+  {
+    "userId": 5,
+    "id": 48,
+    "title": "ut voluptatem illum ea doloribus itaque eos",
+    "body": "voluptates quo voluptatem facilis iure occaecati\nvel assumenda rerum officia et\nillum perspiciatis ab deleniti\nlaudantium repellat ad ut et autem reprehenderit"
+  },
+  {
+    "userId": 5,
+    "id": 49,
+    "title": "laborum non sunt aut ut assumenda perspiciatis voluptas",
+    "body": "inventore ab sint\nnatus fugit id nulla sequi architecto nihil quaerat\neos tenetur in in eum veritatis non\nquibusdam officiis aspernatur cumque aut commodi aut"
+  },
+  {
+    "userId": 5,
+    "id": 50,
+    "title": "repellendus qui recusandae incidunt voluptates tenetur qui omnis exercitationem",
+    "body": "error suscipit maxime adipisci consequuntur recusandae\nvoluptas eligendi et est et voluptates\nquia distinctio ab amet quaerat molestiae et vitae\nadipisci impedit sequi nesciunt quis consectetur"
+  },
+  {
+    "userId": 6,
+    "id": 51,
+    "title": "soluta aliquam aperiam consequatur illo quis voluptas",
+    "body": "sunt dolores aut doloribus\ndolore doloribus voluptates tempora et\ndoloremque et quo\ncum asperiores sit consectetur dolorem"
+  },
+  {
+    "userId": 6,
+    "id": 52,
+    "title": "qui enim et consequuntur quia animi quis voluptate quibusdam",
+    "body": "iusto est quibusdam fuga quas quaerat molestias\na enim ut sit accusamus enim\ntemporibus iusto accusantium provident architecto\nsoluta esse reprehenderit qui laborum"
+  },
+  {
+    "userId": 6,
+    "id": 53,
+    "title": "ut quo aut ducimus alias",
+    "body": "minima harum praesentium eum rerum illo dolore\nquasi exercitationem rerum nam\nporro quis neque quo\nconsequatur minus dolor quidem veritatis sunt non explicabo similique"
+  },
+  {
+    "userId": 6,
+    "id": 54,
+    "title": "sit asperiores ipsam eveniet odio non quia",
+    "body": "totam corporis dignissimos\nvitae dolorem ut occaecati accusamus\nex velit deserunt\net exercitationem vero incidunt corrupti mollitia"
+  },
+  {
+    "userId": 6,
+    "id": 55,
+    "title": "sit vel voluptatem et non libero",
+    "body": "debitis excepturi ea perferendis harum libero optio\neos accusamus cum fuga ut sapiente repudiandae\net ut incidunt omnis molestiae\nnihil ut eum odit"
+  },
+  {
+    "userId": 6,
+    "id": 56,
+    "title": "qui et at rerum necessitatibus",
+    "body": "aut est omnis dolores\nneque rerum quod ea rerum velit pariatur beatae excepturi\net provident voluptas corrupti\ncorporis harum reprehenderit dolores eligendi"
+  },
+  {
+    "userId": 6,
+    "id": 57,
+    "title": "sed ab est est",
+    "body": "at pariatur consequuntur earum quidem\nquo est laudantium soluta voluptatem\nqui ullam et est\net cum voluptas voluptatum repellat est"
+  },
+  {
+    "userId": 6,
+    "id": 58,
+    "title": "voluptatum itaque dolores nisi et quasi",
+    "body": "veniam voluptatum quae adipisci id\net id quia eos ad et dolorem\naliquam quo nisi sunt eos impedit error\nad similique veniam"
+  },
+  {
+    "userId": 6,
+    "id": 59,
+    "title": "qui commodi dolor at maiores et quis id accusantium",
+    "body": "perspiciatis et quam ea autem temporibus non voluptatibus qui\nbeatae a earum officia nesciunt dolores suscipit voluptas et\nanimi doloribus cum rerum quas et magni\net hic ut ut commodi expedita sunt"
+  },
+  {
+    "userId": 6,
+    "id": 60,
+    "title": "consequatur placeat omnis quisquam quia reprehenderit fugit veritatis facere",
+    "body": "asperiores sunt ab assumenda cumque modi velit\nqui esse omnis\nvoluptate et fuga perferendis voluptas\nillo ratione amet aut et omnis"
+  },
+  {
+    "userId": 7,
+    "id": 61,
+    "title": "voluptatem doloribus consectetur est ut ducimus",
+    "body": "ab nemo optio odio\ndelectus tenetur corporis similique nobis repellendus rerum omnis facilis\nvero blanditiis debitis in nesciunt doloribus dicta dolores\nmagnam minus velit"
+  },
+  {
+    "userId": 7,
+    "id": 62,
+    "title": "beatae enim quia vel",
+    "body": "enim aspernatur illo distinctio quae praesentium\nbeatae alias amet delectus qui voluptate distinctio\nodit sint accusantium autem omnis\nquo molestiae omnis ea eveniet optio"
+  },
+  {
+    "userId": 7,
+    "id": 63,
+    "title": "voluptas blanditiis repellendus animi ducimus error sapiente et suscipit",
+    "body": "enim adipisci aspernatur nemo\nnumquam omnis facere dolorem dolor ex quis temporibus incidunt\nab delectus culpa quo reprehenderit blanditiis asperiores\naccusantium ut quam in voluptatibus voluptas ipsam dicta"
+  },
+  {
+    "userId": 7,
+    "id": 64,
+    "title": "et fugit quas eum in in aperiam quod",
+    "body": "id velit blanditiis\neum ea voluptatem\nmolestiae sint occaecati est eos perspiciatis\nincidunt a error provident eaque aut aut qui"
+  },
+  {
+    "userId": 7,
+    "id": 65,
+    "title": "consequatur id enim sunt et et",
+    "body": "voluptatibus ex esse\nsint explicabo est aliquid cumque adipisci fuga repellat labore\nmolestiae corrupti ex saepe at asperiores et perferendis\nnatus id esse incidunt pariatur"
+  },
+  {
+    "userId": 7,
+    "id": 66,
+    "title": "repudiandae ea animi iusto",
+    "body": "officia veritatis tenetur vero qui itaque\nsint non ratione\nsed et ut asperiores iusto eos molestiae nostrum\nveritatis quibusdam et nemo iusto saepe"
+  },
+  {
+    "userId": 7,
+    "id": 67,
+    "title": "aliquid eos sed fuga est maxime repellendus",
+    "body": "reprehenderit id nostrum\nvoluptas doloremque pariatur sint et accusantium quia quod aspernatur\net fugiat amet\nnon sapiente et consequatur necessitatibus molestiae"
+  },
+  {
+    "userId": 7,
+    "id": 68,
+    "title": "odio quis facere architecto reiciendis optio",
+    "body": "magnam molestiae perferendis quisquam\nqui cum reiciendis\nquaerat animi amet hic inventore\nea quia deleniti quidem saepe porro velit"
+  },
+  {
+    "userId": 7,
+    "id": 69,
+    "title": "fugiat quod pariatur odit minima",
+    "body": "officiis error culpa consequatur modi asperiores et\ndolorum assumenda voluptas et vel qui aut vel rerum\nvoluptatum quisquam perspiciatis quia rerum consequatur totam quas\nsequi commodi repudiandae asperiores et saepe a"
+  },
+  {
+    "userId": 7,
+    "id": 70,
+    "title": "voluptatem laborum magni",
+    "body": "sunt repellendus quae\nest asperiores aut deleniti esse accusamus repellendus quia aut\nquia dolorem unde\neum tempora esse dolore"
+  },
+  {
+    "userId": 8,
+    "id": 71,
+    "title": "et iusto veniam et illum aut fuga",
+    "body": "occaecati a doloribus\niste saepe consectetur placeat eum voluptate dolorem et\nqui quo quia voluptas\nrerum ut id enim velit est perferendis"
+  },
+  {
+    "userId": 8,
+    "id": 72,
+    "title": "sint hic doloribus consequatur eos non id",
+    "body": "quam occaecati qui deleniti consectetur\nconsequatur aut facere quas exercitationem aliquam hic voluptas\nneque id sunt ut aut accusamus\nsunt consectetur expedita inventore velit"
+  },
+  {
+    "userId": 8,
+    "id": 73,
+    "title": "consequuntur deleniti eos quia temporibus ab aliquid at",
+    "body": "voluptatem cumque tenetur consequatur expedita ipsum nemo quia explicabo\naut eum minima consequatur\ntempore cumque quae est et\net in consequuntur voluptatem voluptates aut"
+  },
+  {
+    "userId": 8,
+    "id": 74,
+    "title": "enim unde ratione doloribus quas enim ut sit sapiente",
+    "body": "odit qui et et necessitatibus sint veniam\nmollitia amet doloremque molestiae commodi similique magnam et quam\nblanditiis est itaque\nquo et tenetur ratione occaecati molestiae tempora"
+  },
+  {
+    "userId": 8,
+    "id": 75,
+    "title": "dignissimos eum dolor ut enim et delectus in",
+    "body": "commodi non non omnis et voluptas sit\nautem aut nobis magnam et sapiente voluptatem\net laborum repellat qui delectus facilis temporibus\nrerum amet et nemo voluptate expedita adipisci error dolorem"
+  },
+  {
+    "userId": 8,
+    "id": 76,
+    "title": "doloremque officiis ad et non perferendis",
+    "body": "ut animi facere\ntotam iusto tempore\nmolestiae eum aut et dolorem aperiam\nquaerat recusandae totam odio"
+  },
+  {
+    "userId": 8,
+    "id": 77,
+    "title": "necessitatibus quasi exercitationem odio",
+    "body": "modi ut in nulla repudiandae dolorum nostrum eos\naut consequatur omnis\nut incidunt est omnis iste et quam\nvoluptates sapiente aliquam asperiores nobis amet corrupti repudiandae provident"
+  },
+  {
+    "userId": 8,
+    "id": 78,
+    "title": "quam voluptatibus rerum veritatis",
+    "body": "nobis facilis odit tempore cupiditate quia\nassumenda doloribus rerum qui ea\nillum et qui totam\naut veniam repellendus"
+  },
+  {
+    "userId": 8,
+    "id": 79,
+    "title": "pariatur consequatur quia magnam autem omnis non amet",
+    "body": "libero accusantium et et facere incidunt sit dolorem\nnon excepturi qui quia sed laudantium\nquisquam molestiae ducimus est\nofficiis esse molestiae iste et quos"
+  },
+  {
+    "userId": 8,
+    "id": 80,
+    "title": "labore in ex et explicabo corporis aut quas",
+    "body": "ex quod dolorem ea eum iure qui provident amet\nquia qui facere excepturi et repudiandae\nasperiores molestias provident\nminus incidunt vero fugit rerum sint sunt excepturi provident"
+  },
+  {
+    "userId": 9,
+    "id": 81,
+    "title": "tempora rem veritatis voluptas quo dolores vero",
+    "body": "facere qui nesciunt est voluptatum voluptatem nisi\nsequi eligendi necessitatibus ea at rerum itaque\nharum non ratione velit laboriosam quis consequuntur\nex officiis minima doloremque voluptas ut aut"
+  },
+  {
+    "userId": 9,
+    "id": 82,
+    "title": "laudantium voluptate suscipit sunt enim enim",
+    "body": "ut libero sit aut totam inventore sunt\nporro sint qui sunt molestiae\nconsequatur cupiditate qui iste ducimus adipisci\ndolor enim assumenda soluta laboriosam amet iste delectus hic"
+  },
+  {
+    "userId": 9,
+    "id": 83,
+    "title": "odit et voluptates doloribus alias odio et",
+    "body": "est molestiae facilis quis tempora numquam nihil qui\nvoluptate sapiente consequatur est qui\nnecessitatibus autem aut ipsa aperiam modi dolore numquam\nreprehenderit eius rem quibusdam"
+  },
+  {
+    "userId": 9,
+    "id": 84,
+    "title": "optio ipsam molestias necessitatibus occaecati facilis veritatis dolores aut",
+    "body": "sint molestiae magni a et quos\neaque et quasi\nut rerum debitis similique veniam\nrecusandae dignissimos dolor incidunt consequatur odio"
+  },
+  {
+    "userId": 9,
+    "id": 85,
+    "title": "dolore veritatis porro provident adipisci blanditiis et sunt",
+    "body": "similique sed nisi voluptas iusto omnis\nmollitia et quo\nassumenda suscipit officia magnam sint sed tempora\nenim provident pariatur praesentium atque animi amet ratione"
+  },
+  {
+    "userId": 9,
+    "id": 86,
+    "title": "placeat quia et porro iste",
+    "body": "quasi excepturi consequatur iste autem temporibus sed molestiae beatae\net quaerat et esse ut\nvoluptatem occaecati et vel explicabo autem\nasperiores pariatur deserunt optio"
+  },
+  {
+    "userId": 9,
+    "id": 87,
+    "title": "nostrum quis quasi placeat",
+    "body": "eos et molestiae\nnesciunt ut a\ndolores perspiciatis repellendus repellat aliquid\nmagnam sint rem ipsum est"
+  },
+  {
+    "userId": 9,
+    "id": 88,
+    "title": "sapiente omnis fugit eos",
+    "body": "consequatur omnis est praesentium\nducimus non iste\nneque hic deserunt\nvoluptatibus veniam cum et rerum sed"
+  },
+  {
+    "userId": 9,
+    "id": 89,
+    "title": "sint soluta et vel magnam aut ut sed qui",
+    "body": "repellat aut aperiam totam temporibus autem et\narchitecto magnam ut\nconsequatur qui cupiditate rerum quia soluta dignissimos nihil iure\ntempore quas est"
+  },
+  {
+    "userId": 9,
+    "id": 90,
+    "title": "ad iusto omnis odit dolor voluptatibus",
+    "body": "minus omnis soluta quia\nqui sed adipisci voluptates illum ipsam voluptatem\neligendi officia ut in\neos soluta similique molestias praesentium blanditiis"
+  },
+  {
+    "userId": 10,
+    "id": 91,
+    "title": "aut amet sed",
+    "body": "libero voluptate eveniet aperiam sed\nsunt placeat suscipit molestias\nsimilique fugit nam natus\nexpedita consequatur consequatur dolores quia eos et placeat"
+  },
+  {
+    "userId": 10,
+    "id": 92,
+    "title": "ratione ex tenetur perferendis",
+    "body": "aut et excepturi dicta laudantium sint rerum nihil\nlaudantium et at\na neque minima officia et similique libero et\ncommodi voluptate qui"
+  },
+  {
+    "userId": 10,
+    "id": 93,
+    "title": "beatae soluta recusandae",
+    "body": "dolorem quibusdam ducimus consequuntur dicta aut quo laboriosam\nvoluptatem quis enim recusandae ut sed sunt\nnostrum est odit totam\nsit error sed sunt eveniet provident qui nulla"
+  },
+  {
+    "userId": 10,
+    "id": 94,
+    "title": "qui qui voluptates illo iste minima",
+    "body": "aspernatur expedita soluta quo ab ut similique\nexpedita dolores amet\nsed temporibus distinctio magnam saepe deleniti\nomnis facilis nam ipsum natus sint similique omnis"
+  },
+  {
+    "userId": 10,
+    "id": 95,
+    "title": "id minus libero illum nam ad officiis",
+    "body": "earum voluptatem facere provident blanditiis velit laboriosam\npariatur accusamus odio saepe\ncumque dolor qui a dicta ab doloribus consequatur omnis\ncorporis cupiditate eaque assumenda ad nesciunt"
+  },
+  {
+    "userId": 10,
+    "id": 96,
+    "title": "quaerat velit veniam amet cupiditate aut numquam ut sequi",
+    "body": "in non odio excepturi sint eum\nlabore voluptates vitae quia qui et\ninventore itaque rerum\nveniam non exercitationem delectus aut"
+  },
+  {
+    "userId": 10,
+    "id": 97,
+    "title": "quas fugiat ut perspiciatis vero provident",
+    "body": "eum non blanditiis soluta porro quibusdam voluptas\nvel voluptatem qui placeat dolores qui velit aut\nvel inventore aut cumque culpa explicabo aliquid at\nperspiciatis est et voluptatem dignissimos dolor itaque sit nam"
+  },
+  {
+    "userId": 10,
+    "id": 98,
+    "title": "laboriosam dolor voluptates",
+    "body": "doloremque ex facilis sit sint culpa\nsoluta assumenda eligendi non ut eius\nsequi ducimus vel quasi\nveritatis est dolores"
+  },
+  {
+    "userId": 10,
+    "id": 99,
+    "title": "temporibus sit alias delectus eligendi possimus magni",
+    "body": "quo deleniti praesentium dicta non quod\naut est molestias\nmolestias et officia quis nihil\nitaque dolorem quia"
+  },
+  {
+    "userId": 10,
+    "id": 100,
+    "title": "at nam consequatur ea labore ea harum",
+    "body": "cupiditate quo est a modi nesciunt soluta\nipsa voluptas error itaque dicta in\nautem qui minus magnam et distinctio eum\naccusamus ratione error aut"
+  }
+]
+
+10:04:13.372 [main] INFO  com.intuit.karate - [print] null 
+10:04:13.525 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:13.525 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:04:13.627 [main] DEBUG com.intuit.karate - response time in milliseconds: 102
+1 < 200
+1 < Date: Tue, 19 Mar 2024 14:04:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709759537
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 3121
+1 < Server: cloudflare
+1 < CF-RAY: 866e02ab39664581-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+10:04:13.643 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:13.643 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts?userId=1
+1 > x-transaction-id: abc-1234
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:04:13.726 [main] DEBUG com.intuit.karate - response time in milliseconds: 83
+1 < 200
+1 < Date: Tue, 19 Mar 2024 14:04:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710422597&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ETuhcBFhw%2BbvOjItdpiHCalUBhsFqiCQeGU3pzBGhdE%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710422597&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=ETuhcBFhw%2BbvOjItdpiHCalUBhsFqiCQeGU3pzBGhdE%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1710422638
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"aa6-j2NSH739l9uq40OywFMn7Y0C/iY"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 10248
+1 < Server: cloudflare
+1 < CF-RAY: 866e02abd8807bbe-ATL
+1 < alt-svc: h3=":443"; ma=86400
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+    "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "qui est esse",
+    "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+    "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "eum et est occaecati",
+    "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "nesciunt quas odio",
+    "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "dolorem eum magni eos aperiam quia",
+    "body": "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
+  },
+  {
+    "userId": 1,
+    "id": 7,
+    "title": "magnam facilis autem",
+    "body": "dolore placeat quibusdam ea quo vitae\nmagni quis enim qui quis quo nemo aut saepe\nquidem repellat excepturi ut quia\nsunt ut sequi eos ea sed quas"
+  },
+  {
+    "userId": 1,
+    "id": 8,
+    "title": "dolorem dolore est ipsam",
+    "body": "dignissimos aperiam dolorem qui eum\nfacilis quibusdam animi sint suscipit qui sint possimus cum\nquaerat magni maiores excepturi\nipsam ut commodi dolor voluptatum modi aut vitae"
+  },
+  {
+    "userId": 1,
+    "id": 9,
+    "title": "nesciunt iure omnis dolorem tempora et accusantium",
+    "body": "consectetur animi nesciunt iure dolore\nenim quia ad\nveniam autem ut quam aut nobis\net est aut quod aut provident voluptas autem voluptas"
+  },
+  {
+    "userId": 1,
+    "id": 10,
+    "title": "optio molestias id quia eum",
+    "body": "quo et expedita modi cum officia vel magni\ndoloribus qui repudiandae\nvero nisi sit\nquos veniam quod sed accusamus veritatis error"
+  }
+]
+
+10:04:13.744 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:13.861 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"foo","body":"bar","userId":101}
+
+10:04:13.974 [main] DEBUG com.intuit.karate - response time in milliseconds: 113
+1 < 201
+1 < Date: Tue, 19 Mar 2024 14:04:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 67
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710857054&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4LhVHlwV1oGeeiANDuMynzR%2Fnrea2ujbrzxdqflHQq0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710857054&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4LhVHlwV1oGeeiANDuMynzR%2Fnrea2ujbrzxdqflHQq0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1710857079
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-NgznCgXP1uJ1ospZvRmoPd1pX3I"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866e02ad2e6906e8-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 101,
+  "id": 101
+}
+
+10:04:13.990 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:13.990 [main] DEBUG com.intuit.karate - request:
+1 > PUT https://jsonplaceholder.typicode.com/posts/11
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 42
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"foo1","body":"bar1","userId":11}
+
+10:04:14.121 [main] DEBUG com.intuit.karate - response time in milliseconds: 131
+1 < 200
+1 < Date: Tue, 19 Mar 2024 14:04:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710857054&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4LhVHlwV1oGeeiANDuMynzR%2Fnrea2ujbrzxdqflHQq0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710857054&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4LhVHlwV1oGeeiANDuMynzR%2Fnrea2ujbrzxdqflHQq0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1710857079
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-Qxihqp8j2uO0SU5OvpIPKkFtOUs"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866e02ae0bab44df-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "foo1",
+  "body": "bar1",
+  "userId": 11,
+  "id": 11
+}
+
+10:04:14.126 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:14.134 [main] DEBUG com.intuit.karate - request:
+1 > DELETE https://jsonplaceholder.typicode.com/posts/11
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:04:14.243 [main] DEBUG com.intuit.karate - response time in milliseconds: 109
+1 < 200
+1 < Date: Tue, 19 Mar 2024 14:04:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 2
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710857054&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4LhVHlwV1oGeeiANDuMynzR%2Fnrea2ujbrzxdqflHQq0%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710857054&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=4LhVHlwV1oGeeiANDuMynzR%2Fnrea2ujbrzxdqflHQq0%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1710857079
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866e02aeecbdb12d-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{}
+
+10:04:15.903 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:mysocial/posts.feature
+10:04:15.920 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:15.920 [main] INFO  com.intuit.karate - [print] Hello world 
+10:04:15.920 [main] INFO  com.intuit.karate - [print] Hello Ramadoss 
+10:04:15.940 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:04:15.953 [main] INFO  com.intuit.karate - [print] total amount ->230 
+10:04:16.063 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) classpath:mysocial/sample.feature
+10:04:16.063 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+10:15:46.491 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:15:46.507 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710857746503
+10:15:47.940 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:15:48.064 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Tom",
+    "City": "Chennai",
+    "Age": 30
+  },
+  {
+    "name": "Ram",
+    "City": "Morrisville",
+    "Age": 40
+  }
+]
+ 
+10:15:48.067 [main] INFO  com.intuit.karate - [print] {
+  "name": "Tom",
+  "City": "Chennai",
+  "Age": 30
+}
+ 
+10:15:48.986 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:mysocial/json.feature
+10:15:48.996 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:15:48.998 [main] INFO  com.intuit.karate - [print] Hello world 
+10:15:48.998 [main] INFO  com.intuit.karate - [print] Hello Ramadoss 
+10:15:49.005 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:15:49.021 [main] INFO  com.intuit.karate - [print] total amount ->230 
+10:15:49.265 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 3 of 3 (0 remaining) classpath:mysocial/sample.feature
+10:15:49.281 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+10:18:55.703 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:18:55.707 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710857935707
+10:18:57.424 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:18:57.535 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Tom",
+    "City": "Chennai",
+    "Age": 30
+  },
+  {
+    "name": "Ram",
+    "City": "Morrisville",
+    "Age": 40
+  }
+]
+ 
+10:18:57.551 [main] INFO  com.intuit.karate - [print] {
+  "name": "Tom",
+  "City": "Chennai",
+  "Age": 30
+}
+ 
+10:18:58.590 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:mysocial/json.feature
+10:18:58.590 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+10:19:37.973 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:19:37.983 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710857977981
+10:19:39.230 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:19:39.364 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Tom",
+    "City": "Chennai",
+    "Age": 30
+  },
+  {
+    "name": "Ram",
+    "City": "Morrisville",
+    "Age": 40
+  }
+]
+ 
+10:19:39.376 [main] INFO  com.intuit.karate - [print] {
+  "name": "Tom",
+  "City": "Chennai",
+  "Age": 30
+}
+ 
+10:19:39.407 [main] INFO  com.intuit.karate - [print] Ram undefined 40 
+10:19:40.232 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:mysocial/json.feature
+10:19:40.241 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+10:23:23.356 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:23:23.356 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710858203356
+10:23:24.674 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:23:24.804 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Tom",
+    "City": "Chennai",
+    "Age": 30
+  },
+  {
+    "name": "Ram",
+    "City": "Morrisville",
+    "Age": 40
+  }
+]
+ 
+10:23:24.819 [main] INFO  com.intuit.karate - [print] {
+  "name": "Tom",
+  "City": "Chennai",
+  "Age": 30
+}
+ 
+10:23:24.836 [main] INFO  com.intuit.karate - [print] Ram Morrisville 40 
+10:23:24.854 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:23:24.854 [main] INFO  com.intuit.karate - [print] {
+  "menu": {
+    "id": "file",
+    "value": "File",
+    "popup": {
+      "menuitem": [
+        {
+          "value": "New",
+          "onclick": "CreateNewDoc()"
+        },
+        {
+          "value": "Open",
+          "onclick": "OpenDoc()"
+        },
+        {
+          "value": "Close",
+          "onclick": "CloseDoc()"
+        }
+      ]
+    }
+  }
+}
+ 
+10:23:25.749 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:mysocial/json.feature
+10:23:25.766 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+10:26:17.132 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:26:17.148 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710858377148
+10:26:18.567 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:26:18.698 [main] INFO  com.intuit.karate - [print] [
+  {
+    "name": "Tom",
+    "City": "Chennai",
+    "Age": 30
+  },
+  {
+    "name": "Ram",
+    "City": "Morrisville",
+    "Age": 40
+  }
+]
+ 
+10:26:18.700 [main] INFO  com.intuit.karate - [print] {
+  "name": "Tom",
+  "City": "Chennai",
+  "Age": 30
+}
+ 
+10:26:18.733 [main] INFO  com.intuit.karate - [print] Ram Morrisville 40 
+10:26:18.752 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:26:18.758 [main] INFO  com.intuit.karate - [print] {
+  "menu": {
+    "id": "file",
+    "value": "File",
+    "popup": {
+      "menuitem": [
+        {
+          "value": "New",
+          "onclick": "CreateNewDoc()"
+        },
+        {
+          "value": "Open",
+          "onclick": "OpenDoc()"
+        },
+        {
+          "value": "Close",
+          "onclick": "CloseDoc()"
+        }
+      ]
+    }
+  }
+}
+ 
+10:26:18.768 [main] INFO  com.intuit.karate - [print] New 
+10:26:19.854 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 3 (0 remaining) classpath:mysocial/json.feature
+10:26:19.869 [main] DEBUG com.intuit.karate.Suite - waiting for 3 features to complete
+10:32:39.739 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:32:39.748 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710858759746
+10:32:41.136 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:32:41.195 [main] ERROR com.intuit.karate - classpath:mysocial/getapi.feature:6
+When methog get
+no step-definition method match found for: methog get
+classpath:mysocial/getapi.feature:6
+10:32:42.102 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:32:42.111 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+10:33:55.181 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:33:55.186 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710858835185
+10:33:56.367 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:33:56.974 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/30
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:33:57.633 [main] DEBUG com.intuit.karate - response time in milliseconds: 655
+1 < 404
+1 < Date: Tue, 19 Mar 2024 14:33:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: f8a4a321-bd1b-4f25-a8a3-58c8dd1244af
+1 < x-runtime: 0.021060
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Wa%2BfIEKJ0UIC4e1JOwcqLaAoKgxjP1XBTnXMrzR8K12CVpePanScMXvfNmtPG7iNJ5KzV1Fvf5Ei2v5KgfmNql3McJCvr3OBbOeUUKvE6kS77D0%2FCKONbFv8ipDPHs4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e2e378af63b26-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Resource not found"}}
+
+10:33:57.695 [main] ERROR com.intuit.karate - classpath:mysocial/getapi.feature:7
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 655, url: https://gorest.co.in/public/v1/users/30, response: 
+{"meta":null,"data":{"message":"Resource not found"}}
+classpath:mysocial/getapi.feature:7
+10:33:59.115 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:33:59.122 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+10:34:38.031 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:34:38.046 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710858878046
+10:34:39.361 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:34:39.810 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:34:40.369 [main] DEBUG com.intuit.karate - response time in milliseconds: 559
+1 < 404
+1 < Date: Tue, 19 Mar 2024 14:34:40 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: fa57c502-2475-4a3d-bacd-116e451255d5
+1 < x-runtime: 0.021612
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=hD42iKCcurq%2B5Cr8GSYgr2VWF6zLVvjlU0Q7hHE9m6nUi8hGH%2B6hOaJmC37A44EZOWVyrYGv5QA0oeyUdYIYNyi5owm5uPcINYz%2BVtPEBazlG1c6f6utcdOhDYcSeIo%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e2f42b99587b0-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Resource not found"}}
+
+10:34:40.431 [main] ERROR com.intuit.karate - classpath:mysocial/getapi.feature:7
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 559, url: https://gorest.co.in/public/v1/users/1, response: 
+{"meta":null,"data":{"message":"Resource not found"}}
+classpath:mysocial/getapi.feature:7
+10:34:41.421 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:34:41.464 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+10:34:59.888 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:34:59.888 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710858899888
+10:35:01.267 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:35:01.910 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:35:02.489 [main] DEBUG com.intuit.karate - response time in milliseconds: 579
+1 < 404
+1 < Date: Tue, 19 Mar 2024 14:35:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 4a02dd5b-160c-420a-abaf-93d6c5af0801
+1 < x-runtime: 0.019336
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=dgpK1YBoDqbJQl7DzNl6zTzwdCcviryaypJgW%2BQZDrlSTT5e8QQgN939m16mFdId%2Ba3NPiiRZVKLJa%2BZVDa3NgS8nqsRd%2BBlW%2FXLu%2Fn19iL5xjaFaQj7lJr6mmYcS2E%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e2fccffe158cc-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Resource not found"}}
+
+10:35:02.560 [main] ERROR com.intuit.karate - classpath:mysocial/getapi.feature:7
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 579, url: https://gorest.co.in/public/v1/users/1, response: 
+{"meta":null,"data":{"message":"Resource not found"}}
+classpath:mysocial/getapi.feature:7
+10:35:03.975 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:35:03.992 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+10:36:45.267 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:36:45.267 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710859005267
+10:36:46.516 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:36:47.034 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/16793087
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:36:47.613 [main] DEBUG com.intuit.karate - response time in milliseconds: 579
+1 < 404
+1 < Date: Tue, 19 Mar 2024 14:36:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: d4c3a4c0-5d5f-4bb8-9e53-e743960c5a52
+1 < x-runtime: 0.013097
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=UIlOS%2FnTh73bjPlR9FbkgM1x%2Fmx%2FhhvJXf6OMj%2B6ILC%2F8w709QiWP2fO3B2OAb2ACOLwBuOzss3HUaP%2B7zBCG7bTohAnTc2TCanWgZGr%2F2%2F%2FdPhfAtvCVguccmR4PRE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e325e0f30241f-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Resource not found"}}
+
+10:36:47.703 [main] ERROR com.intuit.karate - classpath:mysocial/getapi.feature:7
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 579, url: https://gorest.co.in/public/v1/users/16793087, response: 
+{"meta":null,"data":{"message":"Resource not found"}}
+classpath:mysocial/getapi.feature:7
+10:36:49.016 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:36:49.035 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+10:38:18.046 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:38:18.061 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710859098061
+10:38:19.550 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:38:20.051 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/6793087
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:38:20.631 [main] DEBUG com.intuit.karate - response time in milliseconds: 564
+1 < 200
+1 < Date: Tue, 19 Mar 2024 14:38:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"461699f40be1c2dfbd35645e75972285"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: a499f51b-20c9-4c24-ae21-9a871b3142ef
+1 < x-runtime: 0.023278
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ESMGLDxrL1yaerz3ldC3jNhE9%2FLvW7uEc2qK6qoVbi5veoAWmvDjSR7LI76bDu1OThbziBJPn6XcY6hzIwnJhpkn9VAdtN%2BrtfqYIYVnSMBXgdSECQxX6mQzAwXczOs%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e34a34b590a95-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6793087,"name":"Gajbaahu Bhattathiri Sr.","email":"bhattathiri_sr_gajbaahu@jaskolski-mcglynn.example","gender":"male","status":"inactive"}}
+
+10:38:20.670 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "id": 6793087,
+    "name": "Gajbaahu Bhattathiri Sr.",
+    "email": "bhattathiri_sr_gajbaahu@jaskolski-mcglynn.example",
+    "gender": "male",
+    "status": "inactive"
+  }
+}
+ 
+10:38:20.686 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "id": 6793087,
+    "name": "Gajbaahu Bhattathiri Sr.",
+    "email": "bhattathiri_sr_gajbaahu@jaskolski-mcglynn.example",
+    "gender": "male",
+    "status": "inactive"
+  }
+}
+ 
+10:38:21.874 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:38:21.875 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+10:41:19.921 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:41:19.921 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710859279921
+10:41:21.162 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:41:21.552 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/6793087
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:41:22.080 [main] DEBUG com.intuit.karate - response time in milliseconds: 517
+1 < 404
+1 < Date: Tue, 19 Mar 2024 14:41:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 7c96927f-acec-45fa-8395-b0b39118b86f
+1 < x-runtime: 0.023345
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=kQ2O6kQ6p0teHnjwaBioLA%2B4ssdjNNsas32Q%2Bd6R1Nvyo%2Bt0VaPIHm5dhZ%2FV8EaSC3wb924LN6Jvb5DUTgQKJ5tgGI5I1IQwqeWENNreTZbf74ilM6YpWpeUJy2lB3I%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e39115e2b3958-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Resource not found"}}
+
+10:41:22.113 [main] ERROR com.intuit.karate - classpath:mysocial/getapi.feature:6
+Then status 200
+status code was: 404, expected: 200, response time in milliseconds: 517, url: https://gorest.co.in/public/v1/users/6793087, response: 
+{"meta":null,"data":{"message":"Resource not found"}}
+classpath:mysocial/getapi.feature:6
+10:41:22.145 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:41:22.147 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:41:22.480 [main] DEBUG com.intuit.karate - response time in milliseconds: 333
+1 < 404
+1 < Date: Tue, 19 Mar 2024 14:41:22 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 3a787ee8-d0dc-40ed-bf15-b87e0dc609a1
+1 < x-runtime: 0.025495
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=aAdTDTg1Yyi1VyGDqA40Ai0rHQpHOYU8BEtI38rS1DuIBoRuTL%2BE8i8QQngZ5J0OLI4%2BmjsATZAcMLMMGfoouusk6PGikWGRotiZBqfxhAuYEb9UspVPfa8BnxoLCGk%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e3913f9983949-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Resource not found"}}
+
+10:41:22.491 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "message": "Resource not found"
+  }
+}
+ 
+10:41:22.491 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "message": "Resource not found"
+  }
+}
+ 
+10:41:23.943 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:41:23.960 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+10:43:07.498 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+10:43:07.514 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710859387498
+10:43:09.144 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:43:09.708 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/6793086
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:43:10.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 518
+1 < 200
+1 < Date: Tue, 19 Mar 2024 14:43:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c1855fb2bff0f3fa0bd4ee57aea9a1d1"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 1782252f-ebd8-4ac8-93e2-52c25c7d72a1
+1 < x-runtime: 0.018229
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=zbWrB05DWuJUZyWdqgy6ebGMDD7tN2uJG0DOs%2BLGPXrpEQgFJYmO9EnMCPmzZTyB2cInUiTj6o9hN469YlALmmZgvlsuzqaL6zyuD5TxKyVMOCA2YwQZCQxioVcuEGg%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e3bb55e4b57d2-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6793086,"name":"Pushti Kapoor II","email":"kapoor_pushti_ii@cremin.example","gender":"male","status":"active"}}
+
+10:43:10.271 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "id": 6793086,
+    "name": "Pushti Kapoor II",
+    "email": "kapoor_pushti_ii@cremin.example",
+    "gender": "male",
+    "status": "active"
+  }
+}
+ 
+10:43:10.271 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "id": 6793086,
+    "name": "Pushti Kapoor II",
+    "email": "kapoor_pushti_ii@cremin.example",
+    "gender": "male",
+    "status": "active"
+  }
+}
+ 
+10:43:10.286 [main] INFO  com.intuit.karate - [print] Pushti Kapoor II 
+10:43:10.320 [main] INFO  com.intuit.karate - karate.env system property was: null 
+10:43:10.320 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/1
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+10:43:10.645 [main] DEBUG com.intuit.karate - response time in milliseconds: 325
+1 < 404
+1 < Date: Tue, 19 Mar 2024 14:43:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: 7b4cd1c2-1aa7-4b79-91a6-87c487a57074
+1 < x-runtime: 0.023215
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=c8EDqcFYOPhinK6QZE4iNrNzNH%2BecR4flsZeLGaN6WrgOyzZTptVuoGBjnPt%2FHduqN9QJNF7PB2fR4%2BSpRwgf%2FS%2BHMMctqBCrVS0XTBpRXo%2B8i2cdviX3xCYJeF5UVM%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e3bb7e9c95979-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Resource not found"}}
+
+10:43:10.654 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "message": "Resource not found"
+  }
+}
+ 
+10:43:10.654 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "message": "Resource not found"
+  }
+}
+ 
+10:43:11.870 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 4 (0 remaining) classpath:mysocial/getapi.feature
+10:43:11.888 [main] DEBUG com.intuit.karate.Suite - waiting for 4 features to complete
+11:13:33.779 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:13:33.779 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710861213779
+11:13:35.575 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:13:36.239 [main] DEBUG com.intuit.karate - request:
+1 > GET https://gorest.co.in/public/v1/users/6793086
+1 > "Content-Type": Application/json
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+11:13:36.929 [main] DEBUG com.intuit.karate - response time in milliseconds: 690
+1 < 200
+1 < Date: Tue, 19 Mar 2024 15:13:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"c1855fb2bff0f3fa0bd4ee57aea9a1d1"
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ec689b49-76c4-4272-9d79-209f1da1f212
+1 < x-runtime: 0.027439
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=eZxMRI6k470YPnG3QRyJM6xg5wNboyo2mLH7EL58QaBg3qQEHlUzbqgI2LCg6I8JGBMzduLnMYWtI0yT9iSzHgHenCP7Qa9AE%2Bms8Tg0xl%2F%2BPNmoVMzyXRf1cwtMc74%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e684decb42094-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6793086,"name":"Pushti Kapoor II","email":"kapoor_pushti_ii@cremin.example","gender":"male","status":"active"}}
+
+11:13:36.960 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "id": 6793086,
+    "name": "Pushti Kapoor II",
+    "email": "kapoor_pushti_ii@cremin.example",
+    "gender": "male",
+    "status": "active"
+  }
+}
+ 
+11:13:36.975 [main] INFO  com.intuit.karate - [print] {
+  "meta": null,
+  "data": {
+    "id": 6793086,
+    "name": "Pushti Kapoor II",
+    "email": "kapoor_pushti_ii@cremin.example",
+    "gender": "male",
+    "status": "active"
+  }
+}
+ 
+11:13:38.223 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 5 (0 remaining) classpath:mysocial/headers.feature
+11:13:38.223 [main] DEBUG com.intuit.karate.Suite - waiting for 5 features to complete
+11:44:45.128 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:44:45.143 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710863085143
+11:44:46.787 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:44:47.633 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 46c62d9ba936eaf3c40bd4cae138329d3791d870b566fcf55ea0793c1228a46d
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 74
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom24@gmail.com","gender":"male","status":"active"}
+
+11:44:48.417 [main] DEBUG com.intuit.karate - response time in milliseconds: 784
+1 < 422
+1 < Date: Tue, 19 Mar 2024 15:44:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: e463a556-246e-4b2d-bed6-cb02da8456ab
+1 < x-runtime: 0.084343
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=SY82wNohTzx7EgM3PGH9al%2BG56lJAEVVcNQ%2FVL5vqa0TqWrdRDuh04f%2FbEYcIhDgn92pEvzI8x0pWYrjx7w3aWNM6JhDRpleR9%2BlwIDs5fKnm0W4g5KyfmHftdMSKyA%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e95fe69da8017-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+11:44:48.417 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 784, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+11:44:49.514 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 6 (0 remaining) classpath:mysocial/postapi.feature
+11:44:49.517 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+11:47:38.388 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:47:38.395 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710863258394
+11:47:39.857 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:47:40.551 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 46c62d9ba936eaf3c40bd4cae138329d3791d870b566fcf55ea0793c1228a46d
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 74
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom24@gmail.com","gender":"male","status":"active"}
+
+11:47:41.819 [main] DEBUG com.intuit.karate - response time in milliseconds: 1261
+1 < 422
+1 < Date: Tue, 19 Mar 2024 15:47:42 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: c0a0357a-73b8-42cd-bb7e-1501c46413d7
+1 < x-runtime: 0.076098
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=YYaGWe6a0%2FMNthGjX851QniDhqT5jRHYIs5O%2Ffdw2KcJ5fxLYqT4u3aUBjxryU%2B6f6VnvDm3B%2BKe6rOg1gx3EYICqRpgXMd3AZGOolRMB75sYhFoDo6vfdk3oVmeOI4%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866e9a373af66faf-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+11:47:41.823 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 1261, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+11:47:43.027 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 6 (0 remaining) classpath:mysocial/postapi.feature
+11:47:43.031 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+11:55:43.141 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:55:43.153 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710863743146
+11:55:45.877 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:55:47.086 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 46c62d9ba936eaf3c40bd4cae138329d3791d870b566fcf55ea0793c1228a46d
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 74
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom24@gmail.com","gender":"male","status":"active"}
+
+11:55:47.720 [main] DEBUG com.intuit.karate - response time in milliseconds: 632
+1 < 401
+1 < Date: Tue, 19 Mar 2024 15:55:48 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 48
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-request-id: ce8d2f7c-13a7-4e62-a4bc-fcc964374942
+1 < x-runtime: 0.012377
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=alWHEUAXP4T05mmDIjaC3BnZHghAQK81Ih2uQuh9ESvMUruNGYej4dKPP5kaNYVsfahUapgPtFmGxz0EeiJabuD6wsEsEsZXxDSgXzYvlxkGfaN0ZgykTM%2BKhTtoQYE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866ea6177ce60a81-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"message":"Invalid token"}}
+
+11:55:47.724 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 401, expected: 201, response time in milliseconds: 632, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":{"message":"Invalid token"}}
+classpath:mysocial/postapi.feature:20
+11:55:50.222 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 6 (0 remaining) classpath:mysocial/postapi.feature
+11:55:50.253 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+11:56:11.009 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:56:11.026 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710863771026
+11:56:12.805 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:56:13.469 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 74
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom24@gmail.com","gender":"male","status":"active"}
+
+11:56:14.143 [main] DEBUG com.intuit.karate - response time in milliseconds: 674
+1 < 422
+1 < Date: Tue, 19 Mar 2024 15:56:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: cda095a1-631e-4a46-81d7-7c6cca718c0b
+1 < x-runtime: 0.087112
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=UF4mq0NZvW4e56s6z5TtlGld4loGhib6npOJt5VAKN4TMTxRJ4bZS%2By5kp8A4xtZRwJ0SZ5s3X6oE%2FvYBJOFKvLRBddgnVuaOhmam48qZu55wVhUavu7GsebzllldwQ%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866ea6bc381807f4-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+11:56:14.143 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 674, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+11:56:15.288 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 6 (0 remaining) classpath:mysocial/postapi.feature
+11:56:15.302 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+11:56:59.784 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:56:59.784 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710863819784
+11:57:01.062 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:57:01.875 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 77
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom20202@gmail.com","gender":"male","status":"active"}
+
+11:57:02.510 [main] DEBUG com.intuit.karate - response time in milliseconds: 635
+1 < 201
+1 < Date: Tue, 19 Mar 2024 15:57:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 111
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"5f46010ad21bd7ea23ddb1631fd3a78a"
+1 < location: https://gorest.co.in/public/v1/users/6794441
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: d61f5053-2582-4e83-8812-f6c7428738e6
+1 < x-runtime: 0.076055
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=Phj80lC8GxIo6W70ZoA%2FqhDX6ZsqwD9Dw3n2JqrqxWCcmAe8syQDjOJYhYK3IVsx0%2FuEpZdqcLW8Kj%2Bs1Z%2BKZXZTVDghhK8tdbh8ZmUH7iw7y4Ipi6Dc10kkdrLYkqk%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866ea7eaad685a6a-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6794441,"name":"tom","email":"tom20202@gmail.com","gender":"male","status":"active"}}
+
+11:57:02.542 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:24
+And match  $.data.email == 'tom24@gmail.com'
+match failed: EQUALS
+  $ | not equal (STRING:STRING)
+  'tom20202@gmail.com'
+  'tom24@gmail.com'
+
+classpath:mysocial/postapi.feature:24
+11:57:03.559 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 6 (0 remaining) classpath:mysocial/postapi.feature
+11:57:03.575 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+11:58:00.981 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+11:58:00.987 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710863880987
+11:58:02.443 [main] INFO  com.intuit.karate - karate.env system property was: null 
+11:58:03.089 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}
+
+11:58:03.752 [main] DEBUG com.intuit.karate - response time in milliseconds: 663
+1 < 201
+1 < Date: Tue, 19 Mar 2024 15:58:04 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 110
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"53049e53c82699be1d36a898d62d2f2e"
+1 < location: https://gorest.co.in/public/v1/users/6794442
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 59ec0988-f9c0-48bc-a493-5bbfee47ee9a
+1 < x-runtime: 0.083751
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=IoWp%2BjKvJKLAWULIiM6jpCpStOOVIbOW0EgU3yrTay4nFEb5Y5L3ys%2FKVG%2BMX3xAppVNW3Q3Aw1YZXT89J6fjnqDEyYn8lOISohBtVW8No68yZyWcK3zozfFg%2BRIvcU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866ea9694bda3967-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6794442,"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}}
+
+11:58:04.991 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 4 of 6 (0 remaining) classpath:mysocial/postapi.feature
+11:58:05.013 [main] DEBUG com.intuit.karate.Suite - waiting for 6 features to complete
+12:07:27.186 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:07:27.186 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710864447186
+12:07:28.815 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:07:29.341 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}
+
+12:07:30.008 [main] DEBUG com.intuit.karate - response time in milliseconds: 667
+1 < 422
+1 < Date: Tue, 19 Mar 2024 16:07:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: f53799a0-a72a-43f6-b4f2-b932398b1fc3
+1 < x-runtime: 0.085078
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=hO2d5ts7X3HT9eDQou2B%2B2Ae8jsuQu7T%2BlHKlKZLzmtwzHvxKsQhbH1vflAOrj6dDaKOwpSRm3DO%2F%2BB9MSMqHOWIUpPN4Se8vDUfO6ULR9k%2F%2BHLO10xUNUU2J5ieI%2FU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866eb73c4ecb1ff8-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+12:07:30.008 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 667, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+12:07:31.008 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 7 (0 remaining) classpath:mysocial/postapi.feature
+12:07:31.035 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:07:31.144 [main] ERROR com.intuit.karate - classpath:mysocial/postuser.feature:4
+* def requestPayload = read('classpath:src\test\java\resources')
+js failed:
+>>>>
+01: read('classpath:src\test\java\resources')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src	estjavaesources
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:79)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:mysocial/postuser.feature:4
+12:07:31.430 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+12:07:31.430 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+12:20:35.344 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:20:35.344 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710865235344
+12:20:36.695 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:20:37.425 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}
+
+12:20:38.133 [main] DEBUG com.intuit.karate - response time in milliseconds: 708
+1 < 422
+1 < Date: Tue, 19 Mar 2024 16:20:38 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 2ece9d96-07c0-407e-8ec4-bc0c66ef04d6
+1 < x-runtime: 0.054270
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=lycUv8ozNXBHkKs%2FG1NaANUi58xHV%2FA0W1oHT9xfYIggO3GlYfmENqCnP%2BxwKp4%2Fak6a7r7KoFZOMUV%2FPsUgIAeTLjrW7JqE1VlSNhvs0qLRyGNRBVnU97zot2bA7FY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866eca7a580b3b3c-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+12:20:38.148 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 708, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+12:20:39.493 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 7 (0 remaining) classpath:mysocial/postapi.feature
+12:20:39.511 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:20:39.544 [main] ERROR com.intuit.karate - classpath:mysocial/postuser.feature:4
+* def requestPayload = read('classpath:src/test/java/resources/user.json')
+js failed:
+>>>>
+01: read('classpath:src/test/java/resources/user.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/resources/user.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:mysocial/postuser.feature:4
+12:20:39.843 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+12:20:39.861 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+12:22:00.906 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+12:22:00.906 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710865320906
+12:22:02.346 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:22:02.939 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}
+
+12:22:03.552 [main] DEBUG com.intuit.karate - response time in milliseconds: 612
+1 < 422
+1 < Date: Tue, 19 Mar 2024 16:22:03 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 2d078d6b-0634-4d91-bf45-c3bcc25ca115
+1 < x-runtime: 0.072307
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=xAlHNpNbmwZXrEOoa9%2FEbhU2kxfpxVDKeRU%2FV6tmtU6EM5WURdZFAY2vvZk7wOn0mSKWd1casXY2LkasZwQzDv%2BYkrxmvClp8b%2B5eun1VR1aKA9ZHuDcWd2636cMSCY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866ecc902f623b84-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+12:22:03.568 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 612, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+12:22:04.769 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 7 (0 remaining) classpath:mysocial/postapi.feature
+12:22:04.802 [main] INFO  com.intuit.karate - karate.env system property was: null 
+12:22:04.854 [main] ERROR com.intuit.karate - classpath:mysocial/postuser.feature:4
+* def requestPayload = read('classpath:src/test/java/resources/user.json')
+js failed:
+>>>>
+01: read('classpath:src/test/java/resources/user.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/resources/user.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:mysocial/postuser.feature:4
+12:22:05.128 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+12:22:05.142 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+14:41:53.781 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:41:53.797 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710873713797
+14:41:55.631 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:41:56.289 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}
+
+14:41:57.025 [main] DEBUG com.intuit.karate - response time in milliseconds: 736
+1 < 422
+1 < Date: Tue, 19 Mar 2024 18:41:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: a10b47ba-7f63-4091-908e-3e77d1123798
+1 < x-runtime: 0.091137
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=kwyYBC367voDj9NMsRJbPDFbKM4EZKL7BxtkQOhBqGvSwPr9ZDBnpH3uumttHkFzDWQ0AJvIgGsKEmMoMG%2F%2FqzOWSnDgR0wKlzKYFphXs74ILThrEDrKUS5AkyEqYz0%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866f997eddfb3b29-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+14:41:57.025 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 736, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+14:41:58.311 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 7 (0 remaining) classpath:mysocial/postapi.feature
+14:41:58.328 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:41:58.395 [main] ERROR com.intuit.karate - classpath:mysocial/postuser.feature:4
+* def requestPayload = read('classpath:src/test/java/resources/user.json')
+js failed:
+>>>>
+01: read('classpath:src/test/java/resources/user.json')
+<<<<
+org.graalvm.polyglot.PolyglotException: not found: src/test/java/resources/user.json
+- com.intuit.karate.resource.ResourceUtils.getResource(ResourceUtils.java:118)
+- com.intuit.karate.core.ScenarioFileReader.toResource(ScenarioFileReader.java:128)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsStream(ScenarioFileReader.java:102)
+- com.intuit.karate.core.ScenarioFileReader.readFileAsString(ScenarioFileReader.java:98)
+- com.intuit.karate.core.ScenarioFileReader.readFile(ScenarioFileReader.java:56)
+- com.intuit.karate.core.ScenarioEngine.lambda$new$0(ScenarioEngine.java:129)
+- <js>.:program(Unnamed:1)
+
+classpath:mysocial/postuser.feature:4
+14:41:58.628 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+14:41:58.628 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+14:45:08.961 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:45:08.961 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710873908961
+14:45:10.794 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:45:11.514 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}
+
+14:45:12.283 [main] DEBUG com.intuit.karate - response time in milliseconds: 769
+1 < 422
+1 < Date: Tue, 19 Mar 2024 18:45:13 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: b2106456-f641-4dbb-a90a-c53aea7b6476
+1 < x-runtime: 0.155474
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=ilXtJ09Joe6NBHZl4H02LV7jumbVYdEEHxYedGWDg%2F54EyS9lbUkwHMuL1Vg3j4tu0qltu5v3mCcjlt9cd5ybhmTLIUShYwN%2BsQiQnG2T1StoLMskBntNzcqtAkhRYY%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866f9e42fef36ff2-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+14:45:12.283 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 769, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+14:45:13.398 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 7 (0 remaining) classpath:mysocial/postapi.feature
+14:45:13.414 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:45:13.497 [main] INFO  com.intuit.karate - [print] iXRGzROYqW 
+14:45:13.497 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 79
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"ram","gender":"male","status":"active","email":"iXRGzROYqW@gmail.com"}
+
+14:45:13.959 [main] DEBUG com.intuit.karate - response time in milliseconds: 462
+1 < 201
+1 < Date: Tue, 19 Mar 2024 18:45:14 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 113
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"e85d7978b59662b11c89eb0d926e9f5f"
+1 < location: https://gorest.co.in/public/v1/users/6794842
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: f3708811-3878-4a74-a05e-38a2e7460d65
+1 < x-runtime: 0.133994
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=kOjqypL7h1azVPmCrEEdHk8c6qnWjPC7m9igBmDWpEkp43SoA5ra6i4Or5cHXbYbbVlAnZpHlyDfVD4nEzsqIq%2Fv1k1m7eQjSZ5Kd%2FIi%2BAGrJaD256scA%2BvW3mzPj2s%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866f9e4da94020a5-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6794842,"name":"ram","email":"iXRGzROYqW@gmail.com","gender":"male","status":"active"}}
+
+14:45:14.258 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+14:45:14.261 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+14:47:48.968 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+14:47:48.983 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710874068983
+14:47:50.271 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:47:51.042 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 76
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"tom","email":"tom2022@gmail.com","gender":"male","status":"active"}
+
+14:47:51.771 [main] DEBUG com.intuit.karate - response time in milliseconds: 729
+1 < 422
+1 < Date: Tue, 19 Mar 2024 18:47:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 75
+1 < Connection: keep-alive
+1 < Cache-Control: no-cache
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 69cc8c55-e4ed-4b70-96ce-2d30e2cd9e64
+1 < x-runtime: 0.090264
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2BV%2B921sqJQ9bG1N4ssRlS%2FGlTUGRY68gcEO7YOY8PMxv4x43URkNpUvEYkQFsl1QPRDxeKg1Li8MZ8yPfeyCCJAWjeEtauCEgVrbfntaamw0C47ZrJo%2B7penNd9yWAU%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866fa2283bfb87ac-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+
+14:47:51.771 [main] ERROR com.intuit.karate - classpath:mysocial/postapi.feature:20
+Then status 201
+status code was: 422, expected: 201, response time in milliseconds: 729, url: https://gorest.co.in/public/v1/users, response: 
+{"meta":null,"data":[{"field":"email","message":"has already been taken"}]}
+classpath:mysocial/postapi.feature:20
+14:47:52.874 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 4 of 7 (0 remaining) classpath:mysocial/postapi.feature
+14:47:52.890 [main] INFO  com.intuit.karate - karate.env system property was: null 
+14:47:52.988 [main] INFO  com.intuit.karate - [print] ZeOlgciHhM 
+14:47:53.004 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 79
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"ram","gender":"male","status":"active","email":"ZeOlgciHhM@gmail.com"}
+
+14:47:53.926 [main] DEBUG com.intuit.karate - response time in milliseconds: 920
+1 < 201
+1 < Date: Tue, 19 Mar 2024 18:47:54 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 113
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"320d660ea6e7722bd3c1e482608cf622"
+1 < location: https://gorest.co.in/public/v1/users/6794848
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 8898378f-db36-44fb-b14c-318949db9b4d
+1 < x-runtime: 0.110526
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=vr80IV6TZOSCOHaJAZRh%2BahaLPsUbvtAny3mN%2Fp9VpmXAvf6pqJ8URXqyjCO9%2B2hw%2FsFKbohZ2cF2kyfJklsoQhVxEiqDy1xKPGJ0gMEWH5dsohO2KMFOe2AqDwS%2FRE%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866fa2329ab05a33-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6794848,"name":"ram","email":"ZeOlgciHhM@gmail.com","gender":"male","status":"active"}}
+
+14:47:54.236 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+14:47:54.236 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+15:07:15.663 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:07:15.679 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710875235679
+15:07:17.141 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:07:17.358 [main] INFO  com.intuit.karate - [print] igRBIhSYes 
+15:07:17.906 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 79
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"ram","gender":"male","status":"active","email":"igRBIhSYes@gmail.com"}
+
+15:07:18.700 [main] DEBUG com.intuit.karate - response time in milliseconds: 794
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:07:19 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 113
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"9a8cb4bcc99dbddc6480ceabdfc0dc79"
+1 < location: https://gorest.co.in/public/v1/users/6794864
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: 9f98fbcc-8a1c-4965-a125-4e4deac75041
+1 < x-runtime: 0.114511
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=EUkvZymPaLvlGX%2BiLW9fvPuXTzNfCf5xOaevb36mv5zZed%2B%2BZfSKPEwwX9FTui2rxc9bA0In0dEkSJvjqwwRkfRSUgG4tgZ8AOBDS%2B6bvWrJ%2FV55LO7jlFgkfeMVTqs%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866fbea54d6638fe-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6794864,"name":"ram","email":"igRBIhSYes@gmail.com","gender":"male","status":"active"}}
+
+15:07:19.735 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+15:07:19.735 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+15:07:49.449 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:07:49.457 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710875269449
+15:07:50.712 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:07:50.879 [main] INFO  com.intuit.karate - [print] YpGQPNEopC 
+15:07:51.362 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 79
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"ram","gender":"male","status":"active","email":"YpGQPNEopC@gmail.com"}
+
+15:07:52.607 [main] DEBUG com.intuit.karate - response time in milliseconds: 1245
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:07:53 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 113
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"b6a8ba20a3cc1c841370e4acf820199a"
+1 < location: https://gorest.co.in/public/v1/users/6794865
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: eefec84d-0d07-4bf8-bd14-0c7276eb2153
+1 < x-runtime: 0.183777
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=3kkQJqIjG%2FJOvIhNrW9GzKE%2Fyq3Ba%2BYJswFfOAtTklTpuwPwGFPURVYepxopivYQPT0I70rdVQRlpc7qMm%2FtHBPZBhRjAuFT%2BStBpWZ4kTHpoYpmK51aFQY4ctkXErc%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866fbf75d8ea12c3-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6794865,"name":"ram","email":"YpGQPNEopC@gmail.com","gender":"male","status":"active"}}
+
+15:07:53.758 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+15:07:53.774 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+15:11:58.490 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:11:58.490 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710875518490
+15:11:59.978 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:12:00.217 [main] INFO  com.intuit.karate - [print] LzBdlBQLKH 
+15:12:00.871 [main] DEBUG com.intuit.karate - request:
+1 > POST https://gorest.co.in/public/v1/users
+1 > Authorization: Bearer 171627ce11c41f1b1947a0428824704b3e8705ce09173f1ff3ac2a3f3b6f10c9
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 79
+1 > Host: gorest.co.in
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"name":"ram","gender":"male","status":"active","email":"LzBdlBQLKH@gmail.com"}
+
+15:12:01.559 [main] DEBUG com.intuit.karate - response time in milliseconds: 688
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:12:02 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 113
+1 < Connection: keep-alive
+1 < Cache-Control: max-age=0, private, must-revalidate
+1 < etag: W/"1e618abe8c27a0b01242a298e40baf6a"
+1 < location: https://gorest.co.in/public/v1/users/6794867
+1 < referrer-policy: strict-origin-when-cross-origin
+1 < vary: Origin
+1 < x-content-type-options: nosniff
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-ratelimit-limit: 90
+1 < x-ratelimit-remaining: 89
+1 < x-ratelimit-reset: 1
+1 < x-request-id: f344d6d8-d687-4d18-b1fc-0a3b1509aa00
+1 < x-runtime: 0.091053
+1 < x-xss-protection: 0
+1 < CF-Cache-Status: DYNAMIC
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=BXKWP43A0aW%2BY16DHF5sLbuPyqyoifTu9UWsRcLXw85n9SVDj%2F8BHSWcbA2Lx8u0v7vuJhgvZeyqk%2FhxUrceklFivZuvw%2BMXFwE1PrceAb1Qmm2y7D8daxqTr1GqM5Q%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 866fc58d5a453b24-IAD
+1 < alt-svc: h3=":443"; ma=86400
+{"meta":null,"data":{"id":6794867,"name":"ram","email":"LzBdlBQLKH@gmail.com","gender":"male","status":"active"}}
+
+15:12:02.743 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 6 of 7 (0 remaining) classpath:mysocial/postuser.feature
+15:12:02.743 [main] DEBUG com.intuit.karate.Suite - waiting for 7 features to complete
+15:26:27.028 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:26:27.028 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710876387028
+15:26:28.337 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:26:28.787 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:26:29.341 [main] DEBUG com.intuit.karate - response time in milliseconds: 554
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:26:30 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709759537
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 22458
+1 < Server: cloudflare
+1 < CF-RAY: 866fdabecd8bade4-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:26:29.497 [main] ERROR com.intuit.karate - classpath:mysocial/data-driven-post.feature:10
+And match response ==
+"""
+{
+"userId": '#number',
+"id": '#(postid)',
+"title": '#string',
+"body": '#string',
+}
+"""
+match failed: EQUALS
+  $ | not equal | match failed for name: 'id' (MAP:MAP)
+  {"userId":1,"id":1,"title":"sunt aut facere repellat provident occaecati excepturi optio reprehenderit","body":"quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"}
+  {"userId":"#number","id":"1","title":"#string","body":"#string"}
+
+    $.id | data types don't match (NUMBER:STRING)
+    1
+    '1'
+
+classpath:mysocial/data-driven-post.feature:10
+15:26:30.662 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 2 (0 remaining) classpath:mysocial/data-driven-post.feature
+15:26:30.662 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:27:29.583 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:27:29.598 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710876449598
+15:27:31.144 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:27:31.697 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:27:32.089 [main] DEBUG com.intuit.karate - response time in milliseconds: 392
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:27:32 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709759537
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 22520
+1 < Server: cloudflare
+1 < CF-RAY: 866fdc470c1369f2-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:27:33.160 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:mysocial/data-driven-post.feature
+15:27:33.160 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:35:17.349 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:35:17.365 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710876917349
+15:35:18.697 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:19.266 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:19.646 [main] DEBUG com.intuit.karate - response time in milliseconds: 380
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:35:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709759537
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 22988
+1 < Server: cloudflare
+1 < CF-RAY: 866fe7b10e991399-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:35:19.807 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:19.825 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/2
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:19.926 [main] DEBUG com.intuit.karate - response time in milliseconds: 101
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:35:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709894069&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=T4VXaHi0vlPGhmnA9h%2Fb%2FITXUv9nw9Bxocm6p9Rnl7s%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709894069&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=T4VXaHi0vlPGhmnA9h%2Fb%2FITXUv9nw9Bxocm6p9Rnl7s%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709894123
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"116-jnDuMpjju89+9j7e0BqkdFsVRjs"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 15296
+1 < Server: cloudflare
+1 < CF-RAY: 866fe7b2c91a244a-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+
+15:35:19.950 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:19.954 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/3
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:35:20.027 [main] DEBUG com.intuit.karate - response time in milliseconds: 73
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:35:20 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710784617&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MZHNorTJ2Z43hbhHcoVLmNSx9DLmU5Rc2zNtC%2B2fiPM%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710784617&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MZHNorTJ2Z43hbhHcoVLmNSx9DLmU5Rc2zNtC%2B2fiPM%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1710784667
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"11b-USacuIw5a/iXAGdNKBvqr/TbMTc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 15296
+1 < Server: cloudflare
+1 < CF-RAY: 866fe7b38946243e-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 3,
+  "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+  "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+}
+
+15:35:20.045 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:20.141 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"foo","body":"bar","userId":101}
+
+15:35:20.294 [main] DEBUG com.intuit.karate - response time in milliseconds: 153
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:35:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 67
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710876921&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3V8Jn%2BztNyxajGPyuhRMMJ78vAGIpF4xYy3lA9TBFio%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710876921&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3V8Jn%2BztNyxajGPyuhRMMJ78vAGIpF4xYy3lA9TBFio%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1710876940
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-NgznCgXP1uJ1ospZvRmoPd1pX3I"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866fe7b4be9c53fe-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "foo",
+  "body": "bar",
+  "userId": 101,
+  "id": 101
+}
+
+15:35:20.308 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:20.308 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"Ram","body":"jai","userId":102}
+
+15:35:20.438 [main] DEBUG com.intuit.karate - response time in milliseconds: 130
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:35:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 67
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710876921&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3V8Jn%2BztNyxajGPyuhRMMJ78vAGIpF4xYy3lA9TBFio%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710876921&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3V8Jn%2BztNyxajGPyuhRMMJ78vAGIpF4xYy3lA9TBFio%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1710876940
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-55E7NEBFGDuRupDFFQxh1sH31Pk"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866fe7b5cab8672f-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "Ram",
+  "body": "jai",
+  "userId": 102,
+  "id": 101
+}
+
+15:35:20.448 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:35:20.451 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"Sam","body":"Hai","userId":103}
+
+15:35:20.553 [main] DEBUG com.intuit.karate - response time in milliseconds: 101
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:35:21 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 67
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710876921&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3V8Jn%2BztNyxajGPyuhRMMJ78vAGIpF4xYy3lA9TBFio%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710876921&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=3V8Jn%2BztNyxajGPyuhRMMJ78vAGIpF4xYy3lA9TBFio%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1710876940
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-Npaqh5gJ5zjEMAPg0eumEXQVV8Q"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866fe7b6b81244f6-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "Sam",
+  "body": "Hai",
+  "userId": 103,
+  "id": 101
+}
+
+15:35:21.890 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:mysocial/data-driven-post.feature
+15:35:21.907 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+15:42:34.148 [main] ERROR com.intuit.karate.core.FeatureParser - not a valid feature file: mysocial/data-driven-post.feature - mismatched input '<EOF>' expecting TABLE_ROW
+15:45:33.153 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+15:45:33.168 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1710877533168
+15:45:34.840 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:35.289 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/1
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.661 [main] DEBUG com.intuit.karate - response time in milliseconds: 372
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:45:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709759494&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=q31fnUcQxIBaZpD3ajYyoWS2isrPY5akPslbtQ6tpHY%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709759537
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"124-yiKdLzqO5gfBrJFrcdJ8Yq0LGnU"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 23604
+1 < Server: cloudflare
+1 < CF-RAY: 866ff6ba2ccc53b2-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 1,
+  "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+  "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+}
+
+15:45:35.788 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:35.793 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/2
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.885 [main] DEBUG com.intuit.karate - response time in milliseconds: 92
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:45:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1709894069&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=T4VXaHi0vlPGhmnA9h%2Fb%2FITXUv9nw9Bxocm6p9Rnl7s%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1709894069&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=T4VXaHi0vlPGhmnA9h%2Fb%2FITXUv9nw9Bxocm6p9Rnl7s%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1709894123
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"116-jnDuMpjju89+9j7e0BqkdFsVRjs"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 15912
+1 < Server: cloudflare
+1 < CF-RAY: 866ff6bb9c5d53f8-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 2,
+  "title": "qui est esse",
+  "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+}
+
+15:45:35.900 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:35.904 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/posts/3
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+
+
+15:45:35.991 [main] DEBUG com.intuit.karate - response time in milliseconds: 87
+1 < 200
+1 < Date: Tue, 19 Mar 2024 19:45:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710784617&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MZHNorTJ2Z43hbhHcoVLmNSx9DLmU5Rc2zNtC%2B2fiPM%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710784617&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=MZHNorTJ2Z43hbhHcoVLmNSx9DLmU5Rc2zNtC%2B2fiPM%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1710784667
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"11b-USacuIw5a/iXAGdNKBvqr/TbMTc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 15912
+1 < Server: cloudflare
+1 < CF-RAY: 866ff6bc4b6906ec-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "userId": 1,
+  "id": 3,
+  "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+  "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+}
+
+15:45:36.000 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:36.025 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:36.093 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"Ram","body":"bar","userId":101}
+
+15:45:36.226 [main] DEBUG com.intuit.karate - response time in milliseconds: 133
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:45:36 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 67
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710877536&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=T4nSs5mXyTxoYctdd2KF%2FnaMgCkua4h9hBAzalTo1%2Fc%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710877536&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=T4nSs5mXyTxoYctdd2KF%2FnaMgCkua4h9hBAzalTo1%2Fc%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1710877540
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-Z7L6mCvnIO5QOoha18CMxL8DJmw"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866ff6bd88e94552-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "Ram",
+  "body": "bar",
+  "userId": 101,
+  "id": 101
+}
+
+15:45:36.242 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:36.242 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"Sam","body":"Car","userId":101}
+
+15:45:36.372 [main] DEBUG com.intuit.karate - response time in milliseconds: 130
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:45:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 67
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710877537&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Pe3R62lcudvrlUW08Wpp6HWERpnc7wsx%2FO%2BVPDWa1NI%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710877537&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Pe3R62lcudvrlUW08Wpp6HWERpnc7wsx%2FO%2BVPDWa1NI%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 998
+1 < X-Ratelimit-Reset: 1710877540
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-3luqB3gma1DwmmASuffhH6MRSXo"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866ff6be5de9244b-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "Sam",
+  "body": "Car",
+  "userId": 101,
+  "id": 101
+}
+
+15:45:36.376 [main] INFO  com.intuit.karate - karate.env system property was: null 
+15:45:36.376 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/posts
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 41
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/14.0.1)
+1 > Accept-Encoding: gzip,deflate
+{"title":"Kam","body":"Nar","userId":101}
+
+15:45:36.497 [main] DEBUG com.intuit.karate - response time in milliseconds: 121
+1 < 201
+1 < Date: Tue, 19 Mar 2024 19:45:37 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 67
+1 < Connection: keep-alive
+1 < Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1710877537&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Pe3R62lcudvrlUW08Wpp6HWERpnc7wsx%2FO%2BVPDWa1NI%3D"}]}
+1 < Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1710877537&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Pe3R62lcudvrlUW08Wpp6HWERpnc7wsx%2FO%2BVPDWa1NI%3D
+1 < Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1710877540
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: https://jsonplaceholder.typicode.com/posts/101
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"43-+5I2mmHigpiWBsT3iV/bp7dzPHc"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < Server: cloudflare
+1 < CF-RAY: 866ff6bf2ca8187f-ATL
+1 < alt-svc: h3=":443"; ma=86400
+{
+  "title": "Kam",
+  "body": "Nar",
+  "userId": 101,
+  "id": 101
+}
+
+15:45:38.176 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 1 of 2 (0 remaining) classpath:mysocial/data-driven-post.feature
+15:45:38.176 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete

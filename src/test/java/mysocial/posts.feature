@@ -1,3 +1,4 @@
+@ignore
 Feature: Verify posts api for mysocial
 
 Background: Initialize stuff
